@@ -1,0 +1,64 @@
+# AI Agent Guidelines for Development Documentation
+
+## 🎯 Primary Task
+Your responsibility is to maintain detailed documentation of the development process in `docs/development_progress.md`. This document is critical for tracking progress, decisions made, and accumulated experience.
+
+## ⚡ Key Rules
+
+### 1. Mandatory Updates
+- Documentation MUST be updated after EVERY significant action:
+  - Writing new code
+  - Modifying existing code
+  - Deleting code
+  - Refactoring
+  - Testing
+  - Problem discovery
+  - Architectural decisions
+
+### 2. What to Document
+- ✅ Completed Actions
+  - What was specifically done
+  - Which files were affected
+  - Reasons for changes
+  
+- 🧪 Test Results
+  - What was tested
+  - How tests performed
+  - Problems found
+  
+- 🚫 Blockers
+  - Obstacle description
+  - Possible solutions
+  - Required resources
+  
+- 💡 Lessons Learned
+  - Successful practices
+  - Discovered issues
+  - Future recommendations
+
+### 3. Record Format
+- Each entry must contain:
+  - Date and time
+  - Change category
+  - Detailed description
+  - Status (completed/in progress/blocked)
+  
+### 4. Priorities
+- Maintain current list of priority tasks
+- Mark critical tasks and blockers
+- Update completion status
+
+## 📋 Update Process
+1. Check current document state
+2. Add new entry in appropriate section
+3. Update overall project status
+4. Check and update priority list
+5. Record new Lessons Learned
+
+## 🔍 Monitoring
+- Regularly verify all sections are current
+- Remove outdated information
+- Update progress metrics
+
+## 💾 Documentation Location
+Main progress file: `docs/development_progress.md`
