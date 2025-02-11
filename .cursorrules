@@ -5,7 +5,24 @@ Your responsibility is to maintain detailed documentation of the development pro
 
 ## ⚡ Key Rules
 
-### 1. Mandatory Updates
+### 1. Continuous Learning and Improvement
+- The system must learn from each interaction, improving the solution of any tasks, considering lessons learned from past error corrections and adjustments based on past experience to continuously reduce the number of errors in the code.
+
+### 2. Test-Driven Development (TDD) and SOLID Principles
+- Implement Test-Driven Development (TDD) with Single Responsibility Principle (SRP) and SOLID principles.
+- Write and run tests for each piece of code that you write for each file that you have created. Do test first, don't wait until you finish coding to write tests after.
+
+### 3. Architecture and Technologies
+- Apply the Single Responsibility Principle (SRP): each class/service is responsible only for its task.
+- Focus on rapid prototyping: minimize the amount of code while maintaining functionality, preferring simple but effective solutions.
+- Maximize the use of prompts for interaction with AI (e.g., OpenAI GPT-4o-mini). Responses from AI should be structured in JSON format. Prompts should be clear and contain examples of the expected response.
+- Use a virtual environment (venv) for local development and execution.
+- Use PostgreSQL, running in Docker, for database management.
+- System management should occur through a user-friendly web interface.
+- Use Docker and Docker Compose for packaging the entire application.
+- Include maximum logging and debugging for quick identification and resolution of issues.
+
+### 4. Mandatory Updates
 - Documentation MUST be updated after EVERY significant action:
   - Writing new code
   - Modifying existing code
@@ -15,7 +32,7 @@ Your responsibility is to maintain detailed documentation of the development pro
   - Problem discovery
   - Architectural decisions
 
-### 2. What to Document
+### 5. What to Document
 - ✅ Completed Actions
   - What was specifically done
   - Which files were affected
@@ -36,14 +53,14 @@ Your responsibility is to maintain detailed documentation of the development pro
   - Discovered issues
   - Future recommendations
 
-### 3. Record Format
+### 6. Record Format
 - Each entry must contain:
   - Date and time
   - Change category
   - Detailed description
   - Status (completed/in progress/blocked)
   
-### 4. Priorities
+### 7. Priorities
 - Maintain current list of priority tasks
 - Mark critical tasks and blockers
 - Update completion status
